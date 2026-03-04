@@ -1,0 +1,15 @@
+views:
+  - type: table
+    name: 表格
+    filters:
+      and:
+        - file.path.startsWith("vol1")
+        - file.name != "_index"
+    order:
+      - title
+      - file.basename
+      - file.ctime
+      - file.mtime
+    sort:
+      - property: file.name
+        direction: DESC
