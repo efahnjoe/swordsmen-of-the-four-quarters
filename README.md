@@ -1,6 +1,6 @@
 ## Introduction
 
-*Swordsmen of the Four Quarters: A Tale of Honor and Brotherhood in the Martial World*
+_Swordsmen of the Four Quarters: A Tale of Honor and Brotherhood in the Martial World_
 
 ## License
 

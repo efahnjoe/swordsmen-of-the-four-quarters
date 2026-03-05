@@ -1,0 +1,15 @@
+{
+  "name": "swordsmen-of-the-four-quarters",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "format": "bunx prettier . --write"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.9",
+    "prettier": "3.8.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
