@@ -1,0 +1,25 @@
+views:
+  - type: table
+    name: 表格
+    filters:
+      and:
+        - file.inFolder("settings/character-profile")
+        - file.basename != "_index"
+    order:
+      - title
+      - file.basename
+      - file.path
+      - file.tags
+    sort:
+      - property: file.basename
+        direction: DESC
+      - property: file.path
+        direction: DESC
+      - property: file.ctime
+        direction: DESC
+      - property: file.name
+        direction: DESC
+    columnSize:
+      note.title: 74
+      file.basename: 104
+      file.path: 223

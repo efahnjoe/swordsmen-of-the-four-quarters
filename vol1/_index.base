@@ -3,8 +3,8 @@ views:
     name: 表格
     filters:
       and:
-        - file.path.startsWith("vol1")
-        - file.name != "_index"
+        - file.inFolder("vol1")
+        - file.basename != "_index"
     order:
       - title
       - file.basename
